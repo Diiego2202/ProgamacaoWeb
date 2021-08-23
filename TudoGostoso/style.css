@@ -9,3 +9,11 @@ h2{
 .centralizado{
     text-align: center;    
 }
+
+.fundoLaranja{
+    background-color: orange;
+}
+
+.fundoCinza{
+    background-color: rgb(231, 231, 231);
+}

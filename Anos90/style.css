@@ -1,0 +1,53 @@
+.fundo{
+    background-color: black;
+    background-size: repeat;
+}
+.fundoBranco{
+    background-color: white;
+}
+.fundoLaranja{
+    background-color: orange;
+}
+.fundoVerde{
+    background-color: lime;
+}
+
+
+.pink{
+    color: hotpink;
+}
+.lime{
+    color: lime;
+}
+.red{
+    color: red;
+}
+.magenta{
+    color: magenta;
+}
+.orange{
+    color: orange;
+}
+.purple{
+    color: purple;
+}
+
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+
+.font{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.fontBlack{
+    color: black;
+}
+.fontBig{
+    font-size: 22px;
+}
