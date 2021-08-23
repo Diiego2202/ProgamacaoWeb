@@ -1,0 +1,21 @@
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+
+
+.fundoVerde{
+    background-color: lime;
+}
+.fundoClaro{
+    background-color: rgb(134, 255, 134);
+}
+
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
