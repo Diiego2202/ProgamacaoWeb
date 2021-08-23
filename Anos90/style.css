@@ -2,6 +2,7 @@
     background-color: black;
     background-size: repeat;
 }
+
 .fundoBranco{
     background-color: white;
 }
@@ -10,6 +11,12 @@
 }
 .fundoVerde{
     background-color: lime;
+}
+.fundoAzul{
+    background-color: blue;
+}
+.fundoEstrelas{
+    background-image: url(stars.gif);
 }
 
 
