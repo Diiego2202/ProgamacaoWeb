@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.fundo1{
+    background-image: url(cataratas.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 300px 20px;
+    color: white;
+}
+
+.fundo2{
+    background-image: url(cristo.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 300px 20px;
+    color: black;
+}
+
+.fundo3{
+    background-image: url(noite.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 300px 20px;
+    color: white;
+}
+
+
+
+.titulo1{
+    font-size: 45px;
+    margin: 0px auto 40px auto;
+    max-width: 400px;
+}
+
+.titulo2{
+    font-size: 45px;
+    margin: 0px 0px 40px 0px;
+    max-width: 600px;
+}
+
+.titulo3{
+    text-align: center;
+    font-size: 45px;
+    margin: 0px 500px 5px auto;
+    max-width: 600px;
+}
+
+
+.sub1{
+    max-width: 550px;
+    margin: 0px auto 40px auto;
+}
+
+.sub2{
+    font-size: 18px;
+    max-width: 550px;
+    margin: 0px 0px 40px 0px;
+}
+
+
+
+.botao1{
+    border-radius: 999px;
+    background-color: lime;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.botao2{
+    border-radius: 999px;
+    background-color: blue;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao3{
+    border-radius: 999px;
+    background-color: skyblue;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
