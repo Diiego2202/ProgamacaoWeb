@@ -30,6 +30,15 @@ body{
     color: white;
 }
 
+.fundo4{
+    background-image: url(deserto.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 300px 20px;
+    color: black;
+}
+
 
 
 .titulo1{
@@ -45,10 +54,16 @@ body{
 }
 
 .titulo3{
-    text-align: center;
+    text-align: left;
     font-size: 45px;
-    margin: 0px 500px 5px auto;
+    margin: 0px 500px 40px auto;
     max-width: 600px;
+}
+
+.titulo4{
+    font-size: 45px;
+    margin: -250px auto 40px 0px;
+    max-width: 500px;
 }
 
 
@@ -58,6 +73,12 @@ body{
 }
 
 .sub2{
+    font-size: 18px;
+    max-width: 550px;
+    margin: 0px 0px 40px 0px;
+}
+
+.sub3{
     font-size: 18px;
     max-width: 550px;
     margin: 0px 0px 40px 0px;
@@ -86,4 +107,6 @@ body{
     padding: 10px 25px;
     text-decoration: none;
     color: white;
+    text-align: right;
+    margin: 0px 0px 0px 750px;
 }
