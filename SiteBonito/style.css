@@ -2,18 +2,19 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-div{
-    background-size: cover;
-    background-position: center;
-    padding: 300px 20px;
-}
-
 a{
     border-radius: 999px;
     padding: 10px 25px;
     text-decoration: none;
 
+}
+
+
+
+.alinhamento{
+    background-size: cover;
+    background-position: center;
+    padding: 300px 20px;
 }
 
 
@@ -99,5 +100,4 @@ a{
 .botao3{
     background-color: skyblue;
     color: white;
-    margin: 0px 0px 0px 750px;
 }
