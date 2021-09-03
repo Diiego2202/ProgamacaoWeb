@@ -3,39 +3,42 @@ body{
 }
 
 
-.fundo1{
-    background-image: url(cataratas.jpg);
+div{
     background-size: cover;
     background-position: center;
-    text-align: center;
     padding: 300px 20px;
+}
+
+a{
+    border-radius: 999px;
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+
+
+
+.fundo1{
+    background-image: url(cataratas.jpg);
+    text-align: center;
     color: white;
 }
 
 .fundo2{
     background-image: url(cristo.jpg);
-    background-size: cover;
-    background-position: center;
     text-align: left;
-    padding: 300px 20px;
     color: black;
 }
 
 .fundo3{
     background-image: url(noite.jpg);
-    background-size: cover;
-    background-position: center;
     text-align: left;
-    padding: 300px 20px;
     color: white;
 }
 
 .fundo4{
     background-image: url(deserto.jpg);
-    background-size: cover;
-    background-position: center;
     text-align: left;
-    padding: 300px 20px;
     color: black;
 }
 
@@ -73,13 +76,11 @@ body{
 }
 
 .sub2{
-    font-size: 18px;
     max-width: 550px;
     margin: 0px 0px 40px 0px;
 }
 
 .sub3{
-    font-size: 18px;
     max-width: 550px;
     margin: 0px 0px 40px 0px;
 }
@@ -87,26 +88,16 @@ body{
 
 
 .botao1{
-    border-radius: 999px;
     background-color: lime;
-    padding: 10px 25px;
-    text-decoration: none;
 }
 
 .botao2{
-    border-radius: 999px;
     background-color: blue;
-    padding: 10px 25px;
-    text-decoration: none;
     color: white;
 }
 
 .botao3{
-    border-radius: 999px;
     background-color: skyblue;
-    padding: 10px 25px;
-    text-decoration: none;
     color: white;
-    text-align: right;
     margin: 0px 0px 0px 750px;
 }
