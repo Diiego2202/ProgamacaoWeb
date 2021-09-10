@@ -16,7 +16,11 @@ body{
     color: white;
 }
 
-
+.limitador{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-position: center;
+}
 
 .titulo1{
     margin: 0px auto 40px auto;
@@ -27,12 +31,69 @@ body{
     margin: 0px auto 40px auto;
 }
 
-.fundoCinza{
-    border-radius: 10px;
-    margin: 15px 15px 15px 15px;
-}
-
 
 .fundoteste{
     background-image: url(pics/blackGround.jpg);    
+}
+
+
+.container{
+    padding: 50px;
+    max-width: 800px;
+}
+.coluna{
+    padding: 15px;
+}
+.fundocoluna{
+    padding: 20px 10px 20px 15px;
+    background-color: rgb(217,225,235);
+    border-radius: 5px;
+    color: black;
+    font-size: small;
+}
+.h2tp{
+    font-size: medium;
+    padding: 0px 0px 0px -5px;
+}
+
+.icone{
+    padding: 0px 0px 15px;
+}
+
+
+.container2{
+    padding: 50px;
+    max-width: 800px;
+    text-align: left;
+    background-color: rgb(237, 240, 243);
+}
+
+.container3{
+    padding: 50px;
+    max-width: 800px;
+}
+
+.fundocoluna2{
+    padding: 240px 10px 10px;
+    background-image: url(pics/blackGround.jpg);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    text-align: left;
+}
+.fundocoluna3{
+    padding: 240px 10px 10px;
+    background-image: url(pics/blackGround.jpg);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    text-align: left;
+}
+.fundocoluna4{
+    padding: 240px 10px 10px;
+    background-image: url(pics/blackGround.jpg);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    text-align: left;
 }

@@ -42,6 +42,12 @@ a{
     text-align: left;
     color: black;
 }
+.fundo5{
+    background-color: black;
+    background-size: cover;
+    text-align: left;
+    color: white;
+}
 
 
 
@@ -90,6 +96,7 @@ a{
 
 .botao1{
     background-color: lime;
+    color: black;
 }
 
 .botao2{
@@ -100,4 +107,24 @@ a{
 .botao3{
     background-color: skyblue;
     color: white;
+}
+
+.lista{
+    list-style-type: disc;
+}
+
+.fontepequena{
+    font-size: small;
+}
+
+.container{
+    padding: 30px;
+    max-width: 2000px;
+}
+.coluna{
+    padding: 10px;
+}
+.fundocoluna{
+    padding: 20px 10px 20px 15px;
+    font-size: small;
 }
