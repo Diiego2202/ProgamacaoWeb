@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.alinhamento{
+    background-size: cover;
+    background-position: center;
+    padding: 300px 20px;
+}
+
+.fundo1{
+    background-image: url(pics/blackGround.jpg);
+    text-align: center;
+    color: white;
+}
+
+
+
+.titulo1{
+    margin: 0px auto 40px auto;
+}
+
+.sub1{
+    max-width: 550px;
+    margin: 0px auto 40px auto;
+}
+
+.fundoCinza{
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+}
+
+
+.fundoteste{
+    background-image: url(pics/blackGround.jpg);    
+}
