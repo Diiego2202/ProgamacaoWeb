@@ -2,6 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    color: rgb(153, 152, 152);
+}
 
 
 .alinhamento{
@@ -10,17 +13,17 @@ body{
     padding: 300px 20px;
 }
 
-.fundo1{
-    background-image: url(pics/blackGround.jpg);
-    text-align: center;
-    color: white;
-}
-
 .limitador{
     max-width: 1000px;
     margin: 0px auto;
     background-position: center;
 }
+
+.h1Alinhado{
+    padding: 15px 0px 20px 0px;
+}
+
+
 
 .titulo1{
     margin: 0px auto 40px auto;
@@ -31,35 +34,36 @@ body{
     margin: 0px auto 40px auto;
 }
 
-
-.fundoteste{
-    background-image: url(pics/blackGround.jpg);    
-}
-
-
-.container{
-    padding: 50px;
-    max-width: 800px;
-}
-.coluna{
-    padding: 15px;
-}
-.fundocoluna{
-    padding: 20px 10px 20px 15px;
-    background-color: rgb(217,225,235);
-    border-radius: 5px;
-    color: black;
-    font-size: small;
-}
-.h2tp{
+.h2Black{
     font-size: medium;
     padding: 0px 0px 0px -5px;
+    color: black;
+}
+
+.h2White{
+    font-size: medium;
+    padding: 0px 0px 0px -5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.coluna{
+    padding: 15px;
 }
 
 .icone{
     padding: 0px 0px 15px;
 }
 
+
+
+.container{
+    padding: 50px;
+    max-width: 800px;
+    color: grey;
+}
 
 .container2{
     padding: 50px;
@@ -73,14 +77,30 @@ body{
     max-width: 800px;
 }
 
+
+
+.fundoCreative{
+    background-image: url(pics/blackGround.jpg);
+    text-align: center;
+    color: white;
+}
+
+.fundocoluna{
+    padding: 20px 10px 20px 15px;
+    background-color: rgb(217,225,235);
+    border-radius: 5px;
+    font-size: small;
+}
+
 .fundocoluna2{
     padding: 240px 10px 10px;
     background-image: url(pics/blackGround.jpg);
     border-radius: 5px;
-    color: white;
+    color: grey;
     font-size: small;
     text-align: left;
 }
+
 .fundocoluna3{
     padding: 240px 10px 10px;
     background-image: url(pics/blackGround.jpg);
@@ -89,6 +109,7 @@ body{
     font-size: small;
     text-align: left;
 }
+
 .fundocoluna4{
     padding: 240px 10px 10px;
     background-image: url(pics/blackGround.jpg);
