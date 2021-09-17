@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alinhamento{
+    background-size: cover;
+    background-position: center;
+    padding: 300px 20px;
+}
+
+.red{
+    color: red;
+}
+
+.fundobranco{
+    background-image: url(FundoBranco.jpg);
+}
+
+.fundocoluna{
+    padding: 20px 10px 20px 15px;
+    background-color: rgb(207, 209, 211);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.titulo1{
+    max-width: 450px;
+    font-weight: bold;
+    padding: auto 0px auto 0px;
+    color: black;
+}
+
+.titulo2{
+    text-align: center;
+    font-weight: bold;
+    padding: auto 0px auto 0px;
+    color: black;
+}
+
+.sub1{
+    font-size: small;
+}
+
+.titulobloco{
+    font-size: medium;
+    padding: 0px 0px 0px -5px;
+    color: black;
+}
+
+.container1{
+    padding: 50px;
+    max-width: 800px;
+    color: grey;
+}
+
+.container2{
+    background-color: rgb(231, 237, 243);
+    padding: 50px;
+    max-width: 800px;
+    color: grey;
+}
+.coluna{
+    padding: 15px;
+}
