@@ -1,0 +1,51 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.homebar{
+    max-width: 50px;
+}
+
+.titulo1{
+    max-width: 250px;
+}
+
+.alinhamento1{
+    padding: 12px;
+}
+
+.alinhamento2{
+    padding: 150px 20px;
+}
+
+.teste{
+    padding: 50px;
+    max-width: 1000px;
+}
+
+.coluna{
+    padding: 15px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.icons{
+    max-width: 30px;
+}
+
+.alinhaicone{
+    padding: 5px;
+}
+
+.fundo1{
+    background-size: cover;
+    background-position: center;
+    background-image: url(Images/fundo1.jpg);
+}
