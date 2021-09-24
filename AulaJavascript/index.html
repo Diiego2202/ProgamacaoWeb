@@ -8,10 +8,26 @@
 </head>
 <body>
     
-    <input type="number">
+    <input type="number" id="inputA">
+    <input type="number" id="inputB">
+    <button type="button" id="botao">Clique</button>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script type="text/javascript">
+        let inputA = document.getElementById("inputA");
+        let inputB = document.getElementById("inputB");
+        let botao = document.getElementById("botao");
 
+        function botaoClicado(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let resultado = a + b;
+
+            swal.fire("A soma é: " + resultado, "success");
+        }
+        botao.onclick = botaoClicado;
+        
     </script>
 </body>
 </html>
