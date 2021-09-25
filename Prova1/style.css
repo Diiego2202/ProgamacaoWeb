@@ -15,17 +15,34 @@
 
 .fundo3{
     background-color: black;
+    text-align: center;
 }
 
-.coluna{
+.fundocoluna{
     padding: 20px 10px 20px 15px;
-    background-color: rgb(217,225,235);
-    border-radius: 5px;
+    background-color: rgb(0, 255, 0);
     font-size: small;
 }
 
 .titulo1{
     font-weight: bold;
+}
+
+.titulo2{
+    max-width: 400px;
+}
+
+.titulo3{
+    max-width: 300px;
+}
+
+.titulo4{
+    max-width: 350px;
+}
+
+.titulo5{
+    max-width: 400px;
+    text-align: center;
 }
 
 .sub1{
@@ -45,4 +62,8 @@
 
 .azul{
     color: blue;
+}
+
+.verde{
+    color: chartreuse;
 }
