@@ -1,0 +1,48 @@
+
+
+.fundo1{
+    background-image: url(img/surf.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 50px 150px 50px;
+    color: white;
+}
+
+.fundo2{
+    background-color: rgb(26, 24, 24);
+}
+
+.fundo3{
+    background-color: black;
+}
+
+.coluna{
+    padding: 20px 10px 20px 15px;
+    background-color: rgb(217,225,235);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.titulo1{
+    font-weight: bold;
+}
+
+.sub1{
+    text-align: center;
+    max-width: 700px;
+}
+
+.container1{
+    padding: 50px;
+    color: white;
+}
+
+.dianho{
+    max-width: 80%;
+    padding: 20px;
+}
+
+.azul{
+    color: blue;
+}
