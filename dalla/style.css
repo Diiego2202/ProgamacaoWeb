@@ -26,7 +26,14 @@
     padding: 80px;
 }	
 
-	li{ padding: 10px ; }
+	li{ 
+		padding: 10px ; 
+		list-style-type: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
 	
 /*PARTE 1*/	
 	.fundo1{
@@ -62,8 +69,7 @@
 
 	.dianho{
 	    max-width: 100%;
-	    padding: 80px 0px;
-	    border-radius: 30px ;    
+	    padding: 80px 0px;   
 	}
 
 	.azul{
