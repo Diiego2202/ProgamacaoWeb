@@ -1,0 +1,167 @@
+﻿/* ATRIBUTOS UNIVERSAIS */
+	body{max-width: 1500px;
+			margin: auto;}
+			
+	.centralizar{
+		text-align:center;}
+
+	.padding {
+		padding: 30px 0px;
+		}
+
+	.padd1{
+		padding: 50px 0px 0px 80px;
+		}
+	
+	.padd2{
+		padding: 100px 80px;
+		}
+		
+	.padd3{
+		padding: 20px 0px;
+		}	
+		
+	.container1{
+    color: white;
+    padding: 80px;
+}	
+
+	li{ padding: 10px ; }
+	
+/*PARTE 1*/	
+	.fundo1{
+	    background-image: url(surf.jpg);
+	    background-size: cover;
+	    background-position: center center;
+	    text-align: center;
+	    color: white;
+		padding: 150px 200px ;}
+	
+	.titulo1{
+	    font-weight: bold;
+	    max-width:380px; 
+	    margin: auto auto;}
+	    
+	 .sub1{
+	    text-align: center;
+	    max-width: 550px;
+	    padding: 30px; 
+	    margin: auto auto;}
+ 
+	    
+	    
+/*PARTE 2 */
+	.fundo2{
+	    background-color: #2d2d2e;
+	    text-align: left;
+	}
+	
+	.titulo2{
+	    max-width: 400px;
+	}
+
+	.dianho{
+	    max-width: 100%;
+	    padding: 80px 0px;
+	    border-radius: 30px ;    
+	}
+
+	.azul{
+ 
+	  background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+	  color: black;
+	  -webkit-background-clip: text; 
+	  -webkit-text-fill-color: transparent;
+	}
+
+
+/*PARTE 3 */
+
+	
+	.titulo3{
+	    max-width: 300px;
+	}
+
+
+	.lapras { background-image: url(lapras.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+								     
+	.botao2{
+		color:white;
+		background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+		border-radius: 30px;
+		text-decoration:none;
+		padding: 10px;
+		}
+	
+	
+	
+/* PARTE 4 */	
+
+	
+	.fundo{
+		background-color:black;
+		text-align:center}	
+
+	.titulo4{
+    max-width: 480px;
+    text-align: center;
+    color:white;
+    margin: auto;
+    padding: 20px;
+	}
+
+
+/*PARTE 5 */
+
+	.fundocoluna{
+		    background-color:white;
+		    text-align:center;
+				color:black;
+			padding: 80px 0px 80px 0px;
+		}
+	
+	.borda1{
+		padding:20px 0px 0px 0px;}
+	.borda2{
+		padding: 15px 20px;}	
+		
+	.espreme{
+	
+			margin: 10px 30px;}
+	
+		
+/* tela final */		
+
+	.container2{
+	    background-color :#2d2d2e;
+	    text-align: left;
+	    color: white;
+	    padding: 120px 100px 50px 100px;
+	}
+
+
+	.padd4{
+		padding: 0px 30px;
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
