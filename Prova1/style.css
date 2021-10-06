@@ -1,14 +1,8 @@
 ﻿/* ATRIBUTOS UNIVERSAIS */
 	body{
-		max-width: 1500px;
 		margin: auto;
 	}
 			
-	.container1{
-    	color: white;
-    	padding: 80px;
-	}	
-
 	li{ 
 		padding: 10px ; 
 		list-style-type: none;
@@ -25,7 +19,7 @@
 	    background-position: center center;
 	    text-align: center;
 	    color: white;
-		padding: 150px 200px ;
+		padding: 150px 180px ;
 	}
 	
 	.titulo1{
@@ -40,9 +34,10 @@
 	    padding: 25px; 
 	    margin: auto auto;
 	}
- 
-	.padd1{
-		padding: 50px 0px 0px 80px;
+
+	.container1{
+    	color: white;
+    	padding: 80px;
 	}
 	    
 	    
@@ -66,10 +61,6 @@
 
 	.verde{
 		color: green;
-	}
-
-	.padd2{
-		padding: 100px 80px;
 	}
 
 
@@ -134,7 +125,7 @@
 	    background-color :#2d2d2e;
 	    text-align: left;
 	    color: white;
-		padding: 40px 0px 40px 80px;
+		padding: 40px 80px 40px 80px;
 	}
 
 
