@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        
+    <label for="inputA">Valor A</label>
+    <input type="number" id="inputA">
+
+    <label for="inputB">Valor B</label>
+    <input type="number" id="inputB">
+    
+    <label for="inputC">Valor C</label>
+    <input type="number" id="inputC">
+    
+    <label for="inputD">Valor D</label>
+    <input type="number" id="inputD">
+    
+    <button type="button" id="botao">Clique</button>
+
+    <div id="divResposta">
+		<h1>Preencha os campos e clique no botão!</h1>
+		<p>Sério.. faça isso</p>
+	</div>
+
+    <script type="text/javascript">
+        let a = document.getElementById("inputA");
+        let b = document.getElementById("inputB");
+        let c = document.getElementById("inputC");
+        let d = document.getElementById("inputD");
+        let botao = document.getElementById("botao");
+        let divResposta = document.getElementById("divResposta");
+
+        function divisores(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let c = parseInt(inputC.value);
+            let d = parseInt(inputD.value);
+
+            let html = 'Divisores: ';
+            if(a%2==0 || a%3==0){
+                html += 'ValorA -> ' + a + ' | ';
+            }
+            if(b%2==0 || b%3==0){
+                html += 'ValorB -> ' + b + ' | ';
+            }
+            if(c%2==0 || c%3==0){
+                html += 'ValorC -> ' + c + ' | ';
+            }
+            if(d%2==0 || d%3==0){
+                html += 'ValorD -> ' + d + ' | ';
+            }
+
+
+            divResposta.innerHTML = html;
+
+        }
+        botao.onclick = divisores;
+    </script>
+
+</body>
+</html>

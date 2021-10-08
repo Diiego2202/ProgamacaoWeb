@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="inputA">Valor A</label>
+    <input type="number" id="inputA">
+
+    <label for="inputB">Valor B</label>
+    <input type="number" id="inputB">
+    
+    <label for="inputC">Valor C</label>
+    <input type="number" id="inputC">
+    
+    <label for="inputD">Valor D</label>
+    <input type="number" id="inputD">
+
+    <label for="inputE">Valor E</label>
+    <input type="number" id="inputE">
+
+    <button type="button" id="botao">Clique</button>
+
+    <div id="divResposta">
+        <h1>Preencha os valores</h1>
+        <p>Sério....</p>
+    </div>
+
+    <script type="text/javascript">
+        let a = document.getElementById("inputA");
+        let b = document.getElementById("inputB");
+        let c = document.getElementById("inputC");
+        let d = document.getElementById("inputD");
+        let e = document.getElementById("inputE");
+        let botao = document.getElementById("botao");
+        let divResposta = document.getElementById("divResposta");
+
+        function maiorMenor(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let c = parseInt(inputC.value);
+            let d = parseInt(inputD.value);
+            let e = parseInt(inputE.value);
+            let maior = 0;
+            let menor = 100;
+
+            if(a<menor){
+                menor = a;
+            }else if(a>maior){
+                maior = a;
+            }
+
+            if(b<menor){
+                menor = b;
+            }else if(b>maior){
+                maior = b;
+            }
+
+            if(c<menor){
+                menor = c;
+            }else if(c>maior){
+                maior = c;
+            }
+
+            if(d<menor){
+                menor = d;
+            }else if(d>maior){
+                maior = d;
+            }
+
+            if(e<menor){
+                menor = e;
+            }else if(e>maior){
+                maior = e;
+            }
+
+            let html = 'Maior: ' + maior + ' | Menor: ' + menor;
+            divResposta.innerHTML = html
+
+
+        }
+        botao.onclick = maiorMenor;
+
+    </script>
+
+
+</body>
+</html>

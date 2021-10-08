@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="nome">Nome</label>
+    <input type="string" id="nome">
+
+    <label for="sexo">Sexo</label>
+    <input type="string" id="sexo">
+ 
+    <button type="button" id="botao">clique</button>
+
+    <script type="text/javascript">
+        let nome = document.getElementById("nome");
+        let sexo = document.getElementById("sexo");
+        let botao = document.getElementById("botao");
+
+
+        function saudacao(){
+            let nome = parseInt(nome.value);
+            let sexo = sexo.value;
+
+            window.alert(nome);
+        }
+        botao.onclick = saudacao;
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" id="botao">Clica em mim</button>
+
+    <div id="divbonito">
+        <h1>Exercicio 02 A</h1>
+        <p>Meteu essa? .....</p>
+    </div>
+
+    <script type="text/javascript">
+        let divbonito = document.getElementById("divbonito");
+        let botao = document.getElementById("botao");
+
+        function quadrado(){
+            let html = "";
+            for(let i=15; i<=200; i++){
+                html += "<p>O Quadrado de " + i + " é " + (i * i) + "!</p>";
+            }
+
+            divbonito.innerHTML = html;
+
+        }
+        botao.onclick = quadrado;
+
+    </script>
+
+</body>
+</html>

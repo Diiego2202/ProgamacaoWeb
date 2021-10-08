@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="inputA">Valor A</label>
+    <input type="number" id="inputA">
+
+    <button type="button" id="botao">clique</button>
+
+    <script type="text/javascript">
+        let a = document.getElementById("inputA");
+        let botao = document.getElementById("botao");
+
+        function verificar(){
+            let a = parseInt(inputA.value);
+
+            if(a%2==0){
+                window.alert("PAR!");
+            }else{
+                window.alert("IMPAR");
+            }
+        }
+
+        botao.onclick = verificar;
+
+    </script>
+</body>
+</html>
