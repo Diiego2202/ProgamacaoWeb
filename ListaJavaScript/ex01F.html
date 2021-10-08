@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <input type="number" id="inputA">
+    <input type="number" id="inputB">
+    <input type="number" id="inputC">
+    <button type="button" id="botao">clique</button>
+
+    <script type="text/javascript">
+        let a = document.getElementById("inputA");
+        let b = document.getElementById("inputB");
+        let c = document.getElementById("inputC");
+        let botao = document.getElementById("botao");
+
+        function ordenar(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let c = parseInt(inputC.value);
+
+            if(a>b){
+                if(b>c){
+                    window.alert(a + " | " + b + " | " + c);
+                }else if(c<a){
+                    window.alert(a + " | " + c + " | " + b);
+                }
+            }else if(b>a){
+                if(a>c){
+                    window.alert(b + " | " + a + " | " + c);    
+                }else if(c<b){
+                    window.alert(b + " | " + c + " | " + a);
+                }
+            }else if(c>a){
+                if(a>b){
+                    window.alert(c + " | " + a + " | " + b);
+                }else{
+                    window.alert(c + " | " + b + " | " + a);
+                }
+            }
+        }
+        botao.onclick = ordenar;
+
+    </script>
+</body>
+</html>

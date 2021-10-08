@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="inputA">
+    <input type="number" id="inputB">
+    <input type="number" id="inputC">
+    <input type="number" id="inputD">
+    <button type="button" id="botao">Media</button>
+
+    <script type="text/javascript">
+        let inputA = document.getElementById("inputA");
+        let inputB = document.getElementById("inputB");
+        let inputC = document.getElementById("inputC");
+        let inputD = document.getElementById("inputD");
+        let botao = document.getElementById("botao");
+
+        function media(){
+            let a = parseFloat(inputA.value);
+            let b = parseFloat(inputB.value);
+            let c = parseFloat(inputC.value);
+            let d = parseFloat(inputD.value);
+            let resultado = (a + b + c + d) / 4;
+
+            if(resultado > 7){
+                window.alert("Aprovado! Média: " + resultado);
+            }else{
+                window.alert("Reprovado!"); 
+                let e = parseFloat(window.prompt("Nota no exame: "));
+                    resultado = (a + b + c + d + e) / 5;
+                if(resultado > 5){
+                    window.alert("Aprovado no EXAME! Média: " + resultado);    
+                }else {
+                    window.alert("Reprovado! Média: " + resultado);
+                }
+            }
+        }
+        botao.onclick = media;
+    </script>
+
+
+</body>
+</html>
