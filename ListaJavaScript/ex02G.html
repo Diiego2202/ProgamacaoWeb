@@ -7,32 +7,25 @@
     <title>Document</title>
 </head>
 <body>
+    <button type="button" id="botao">clique</button>
 
-    <button type="button" id="botao">Clique</button>
-    
     <div id="divbonito">
-        <h1>exercicio 2d</h1>
-        <p>é sobre isso...</p>
+        <h1>exercicio 02 G</h1>
+        <p>aaaaa eu to na chuvaaa</p>
     </div>
 
     <script type="text/javascript">
         let divbonito = document.getElementById("divbonito");
         let botao = document.getElementById("botao");
 
-        function soma(){
+        function potencia(){
             let html = '';
-            let aux = 0;
-
-            for(let i=1; i<=500; i++){
-                if(i%2==0){
-                    aux += i;    
-                }
+            for(let i=0; i<=15; i++){
+                html += '<p>3 elevado a ' + i + ' é igual a: ' + Math.pow(3, i) + '</p>'; 
             }
-
-            html += '<p> Soma dos pares: ' + aux + '</p>';
             divbonito.innerHTML = html;
         }
-        botao.onclick = soma;
+        botao.onclick = potencia;
     </script>
 </body>
 </html>

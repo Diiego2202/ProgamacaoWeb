@@ -7,32 +7,28 @@
     <title>Document</title>
 </head>
 <body>
+    <button type="button" id="botao">clique</button>
 
-    <button type="button" id="botao">Clique</button>
-    
     <div id="divbonito">
-        <h1>exercicio 2d</h1>
-        <p>é sobre isso...</p>
+        <h1>exercicio 02 F</h1>
+        <p>ta maluco?</p>
     </div>
 
     <script type="text/javascript">
         let divbonito = document.getElementById("divbonito");
         let botao = document.getElementById("botao");
 
-        function soma(){
+        function quatro(){
             let html = '';
-            let aux = 0;
 
-            for(let i=1; i<=500; i++){
-                if(i%2==0){
-                    aux += i;    
+            for(let i=1; i<=200; i++){
+                if(i%4==0){
+                    html += '<p> Divisivel por 4: ' + i + '</p>';
                 }
             }
-
-            html += '<p> Soma dos pares: ' + aux + '</p>';
             divbonito.innerHTML = html;
         }
-        botao.onclick = soma;
+        botao.onclick = quatro;
     </script>
 </body>
 </html>

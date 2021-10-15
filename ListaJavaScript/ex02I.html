@@ -9,30 +9,33 @@
 <body>
 
     <button type="button" id="botao">Clique</button>
-    
+
     <div id="divbonito">
-        <h1>exercicio 2d</h1>
-        <p>é sobre isso...</p>
+        <h1>exercicio 2 i</h1>
+        <p>owowowowow</p>
     </div>
 
     <script type="text/javascript">
-        let divbonito = document.getElementById("divbonito");
         let botao = document.getElementById("botao");
+        let divbonito = document.getElementById("divbonito");
 
-        function soma(){
+        function fib(){
             let html = '';
-            let aux = 0;
+            let x = 0;
+            let y = 1;
+            let z = 0;
 
-            for(let i=1; i<=500; i++){
-                if(i%2==0){
-                    aux += i;    
-                }
+            for(let i=1; i<=15; i++){
+                html += '<p>' + z + '</p>';
+                z = x + y;
+                y = x;
+                x = z; 
+                 
             }
-
-            html += '<p> Soma dos pares: ' + aux + '</p>';
             divbonito.innerHTML = html;
+
         }
-        botao.onclick = soma;
+        botao.onclick = fib;
     </script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="inputA">
+    <button type="button" id="botao">clique</button>
+
+    <div id="divbonito">
+        <h1>exercicio 02 L</h1>
+        <p>Quanto mais voce espera o onibus, menos voce espera o onibus</p>
+    </div>
+
+    <script type="text/javascript">
+        let divbonito = document.getElementById("divbonito");
+        let inputA = document.getElementById("inputA");
+        let botao = document.getElementById("botao");
+        let aux = 0;
+        let soma = 0;
+        let media = 0;
+
+        function desafio(){
+            let html = ''
+            let a = parseInt(inputA.value);
+            
+
+            if(isNaN(a)){
+                window.alert("Erro!")
+                return;
+            }
+            
+            if(a<0){
+                window.alert("Numero negativo! FIM");
+                html += '<p>Media: ' + media + '</p>';
+                html += '<p>Soma: ' + soma + '</p>';
+                divbonito.innerHTML = html;
+                soma = 0;
+                media = 0;
+                aux = 0;
+                return;
+            }
+
+            aux++;
+            soma += a;
+            media = soma/aux;
+        }
+        
+        botao.onclick = desafio;
+
+    </script>
+</body>
+</html>

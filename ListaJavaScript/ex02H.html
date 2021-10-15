@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="inputA" placeholder="base">
+    <input type="number" id="inputB" placeholder="expoente">
+    <button type="button" id="botao">clique</button>
+
+    <div id="divbonito">
+        <h1>exercicio 02 H</h1>
+        <p>ta vendo aquela lua que brilha la no ceu</p>
+    </div>
+
+    <script type="text/javascript">
+        let inputA = document.getElementById("inputA");
+        let inputB = document.getElementById("inputB");
+        let botao = document.getElementById("botao");
+        let divbonito = document.getElementById("divbonito");
+
+        function potencia(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let html = '';
+
+            if(isNaN(a) || a<0){
+                window.alert("ERRO");
+                return;
+            }
+
+            if(isNaN(b) || b<0){
+                window.alert("ERRO");
+                return;
+            }
+
+            html += '<p>Resultado: ' + Math.pow(a, b) + '</p>';
+            divbonito.innerHTML = html;
+            
+        }
+        botao.onclick = potencia;
+    </script>
+</body>
+</html>

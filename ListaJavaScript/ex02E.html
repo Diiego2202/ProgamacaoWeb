@@ -8,5 +8,29 @@
 </head>
 <body>
     
+    <button type="button" id="botao">clique</button>
+
+    <div id="divbonito">
+        <h1>exercicio 02 e</h1>
+        <p>simplesmente meteu essa?</p>
+    </div>
+
+    <script type="text/javascript">
+        let divbonito = document.getElementById("divbonito")
+        let botao = document.getElementById("botao");
+
+        function impar(){
+            let html = '';
+            
+            for(let i=0; i<=20; i++){
+                if(i%2!=0){
+                    html += '<p> Numero: ' + i + '</p>';
+                }
+            }
+            divbonito.innerHTML = html;
+
+        }
+        botao.onclick = impar;
+    </script>
 </body>
 </html>
