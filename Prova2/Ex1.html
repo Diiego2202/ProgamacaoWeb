@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+</head>
+<body>
+    <p><b>Valor A</b></p>
+    <input type="number" id="inputA" placeholder="Valor A">
+    <p><b>Valor B</b></p>
+    <input type="number" id="inputB" placeholder="Valor B">
+    <p><b>Valor B</b></p>
+    <input type="number" id="inputC" placeholder="Valor C">
+    <p><b>Valor B</b></p>
+    <input type="number" id="inputD" placeholder="Valor D">
+    <p><b>Valor B</b></p>
+    <input type="number" id="inputE" placeholder="Valor E">
+    
+    <button type="button" id="botao">Verificar faltante</button>
+
+    <div id="divbonito">
+        <h1>Exercicio 01</h1>
+        <marquee behavior="" direction="">Never gonna give you up, never gonna let you down...</marquee>
+    </div>
+
+    <script type="text/javascript">
+        let inputA = document.getElementById("inputA");
+        let inputB = document.getElementById("inputB");
+        let inputC = document.getElementById("inputC");
+        let inputD = document.getElementById("inputD");
+        let inputE = document.getElementById("inputE");
+        let botao = document.getElementById("botao")
+        let divbonito = document.getElementById("divbonito");
+
+        function carta_restante(){
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let c = parseInt(inputC.value);
+            let d = parseInt(inputD.value);
+            let e = parseInt(inputE.value);
+            let html = '';
+            let numero;
+            var lista = [];
+
+            lista.push(a);
+            
+            if(isNaN(a) || a<1 || a>6){
+                window.alert("ERRO! VALOR INVÁLIDO");
+                return;
+            }
+            
+            if(isNaN(b) || b<1 || b>6){
+                window.alert("ERRO! VALOR INVÁLIDO");
+                return; 
+            }
+
+            if(isNaN(c) || c<1 || c>6){
+                window.alert("ERRO! VALOR INVÁLIDO");
+                return;
+            }
+
+            if(isNaN(d) || d<1 || d>6){
+                window.alert("ERRO! VALOR INVÁLIDO");
+                return;
+            }
+
+            if(isNaN(e) || e<1 || e>6){
+                window.alert("ERRO! VALOR INVÁLIDO");
+                return;    
+            }
+
+            for(let i=0; i<lista.length; i++){
+                if(lista[i]==b){
+                    window.alert("ERRO! VALOR REPETIDO");
+                    return;
+                }
+            }
+            lista.push(b);
+            
+            for(let i=0; i<lista.length; i++){
+                if(lista[i]==c){
+                    window.alert("ERRO! VALOR REPETIDO");
+                    return;
+                }
+            }
+            lista.push(c);
+
+            for(let i=0; i<lista.length; i++){
+                if(lista[i]==d){
+                    window.alert("ERRO! VALOR REPETIDO");
+                    return;
+                }
+            }
+            lista.push(d);
+
+            for(let i=0; i<lista.length; i++){
+                if(lista[i]==e){
+                    window.alert("ERRO! VALOR REPETIDO");
+                    return;
+                }
+            }
+            lista.push(e);
+
+            numero = 21 - (a+b+c+d+e);
+
+            html += '<p>Número da carta restante: ' + numero + '</p>';
+            divbonito.innerHTML = html;
+
+        }
+        botao.onclick = carta_restante;
+    </script>
+</body>
+</html>
