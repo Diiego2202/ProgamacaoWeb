@@ -1,0 +1,11 @@
+EJS
+https://ejs.co/
+
+EJS Layouts
+https://www.npmjs.com/package/express-ejs-layouts
+
+Extensão do VS Code para EJS
+EJS language support
+
+Fetch API
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
