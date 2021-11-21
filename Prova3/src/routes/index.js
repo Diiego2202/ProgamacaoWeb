@@ -58,6 +58,18 @@ class IndexRoute {
         });
         res.json(true);
     }
+    async exibir(req, res) {
+        // Mais para frente iremos melhorar os tipos, para não usar any[] :)
+        let livro;
+        await app.sql.connect(async (sql) => {
+            // Todas os comandos SQL devem ser executados aqui dentro do app.sql.connect().
+            livro = await sql.query("SELECT id, titulo, ano, autor, paginas FROM livro");
+        });
+        let opcoes = {
+            livro: livro
+        };
+        res.render("index/exibir", opcoes);
+    }
 }
 __decorate([
     app.http.post()
